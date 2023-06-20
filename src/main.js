@@ -9,6 +9,9 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+// For security reasons
+import './disable-post-ws.js'
+
 // Using imported components
 import VueRouter from 'vue-router'
 
